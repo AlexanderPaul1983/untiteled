@@ -3,15 +3,13 @@ package GPDAufgaben;
 import java.util.ArrayList;
 
 public class Bibliothek {
-    //                  Attributen
-    private String Bibliotheksname;
-    private ArrayList<Buch> BibliotheksLager;
+    private final ArrayList<Buch> BibliotheksLager;
 
 //                      Konstruktor
 
 
     public Bibliothek(String bibliotheksname) {
-        this.Bibliotheksname = bibliotheksname;
+        //                  Attributen
         BibliotheksLager = new ArrayList<Buch>();
     }
 

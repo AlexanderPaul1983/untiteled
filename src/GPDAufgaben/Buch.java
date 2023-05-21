@@ -2,9 +2,9 @@ package GPDAufgaben;
 
 public class Buch {
     //                  Attributen
-    private String Titel;
-    private String Autor;
-    private String ISBN;
+    private final String Titel;
+    private final String Autor;
+    private final String ISBN;
 
     //                  Konstruktor
 

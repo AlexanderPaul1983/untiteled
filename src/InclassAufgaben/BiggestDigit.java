@@ -11,6 +11,6 @@ public class BiggestDigit {
             }
         }
         System.out.println(actuellybiggestDigit);
-        System.out.println("Hello");
+
     }
 }
