@@ -1,8 +1,14 @@
 package LearnOPP;
 
 public class YellowState implements State{
+
     @Override
-    public void switchState() {
-        System.out.println("Switching from Yellow to Red");
+    public void next(TrafficLight trafficLight) {
+        trafficLight.setState(new RedState());
+    }
+
+    @Override
+    public String getColor() {
+        return "Yellow";
     }
 }

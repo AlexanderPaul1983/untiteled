@@ -8,8 +8,11 @@ public class Main {
     public static void main(String[] args) {
 
         TrafficLight trafficLight = new TrafficLight();
-        trafficLight.switchState();
-        trafficLight.switchState();
+        for (int i = 0; i <9; i++) {
+            System.out.println(trafficLight.getColor());
+            trafficLight.change();
+
+        }
 
 
 

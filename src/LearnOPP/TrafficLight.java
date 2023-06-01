@@ -10,14 +10,13 @@ public class TrafficLight {
     }
 
     public void  setState(State state){
-        currentState=state;
+        this.currentState=state;
     }
-    public void switchState(){
-       if(Objects.equals(currentState, new RedState())){
-           currentState= new YellowState();
-       }
-        else {
-            currentState= new GreenState();
-       }
-    }
+  public void change(){
+        currentState.next(this);
+
+  }
+  public String getColor(){
+        return currentState.getColor();
+  }
 }

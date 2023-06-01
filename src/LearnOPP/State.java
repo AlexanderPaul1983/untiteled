@@ -1,5 +1,6 @@
 package LearnOPP;
 
 public interface State {
-    void switchState();
+    void next(TrafficLight trafficLight);
+    String getColor();
 }

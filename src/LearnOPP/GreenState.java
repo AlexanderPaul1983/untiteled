@@ -1,8 +1,13 @@
 package LearnOPP;
 
-public class GreenState implements State{
+public class GreenState implements State {
     @Override
-    public void switchState() {
-        System.out.println("Switching from Green to Yellow");
+    public void next(TrafficLight trafficLight) {
+        trafficLight.setState(new YellowState());
+    }
+
+    @Override
+    public String getColor() {
+        return "Green";
     }
 }
