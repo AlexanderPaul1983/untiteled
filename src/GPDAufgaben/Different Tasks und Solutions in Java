@@ -1,0 +1,42 @@
+
+
+1. Klassen und Objekte:
+Erstellen Sie eine Klasse namens "Person", die die Eigenschaften einer Person darstellt, z. B. Name, Alter und Wohnort.
+Erstellen Sie dann eine Instanz dieser Klasse und geben Sie die Eigenschaften aus.
+
+Hinweis:
+
+Erstellen Sie eine Klasse namens "Person" mit den gewünschten Attributen und Methoden.
+Verwenden Sie den Konstruktor der Klasse, um eine Instanz zu erstellen.
+Rufen Sie die Eigenschaften der Instanz über die entsprechenden Methoden auf und geben Sie sie aus.
+2. Vererbung:
+Erstellen Sie eine Klasse namens "Student", die von der Klasse "Person" erbt. Die Klasse "Student" sollte
+zusätzlich zu den Eigenschaften einer Person auch eine Eigenschaft "Studienfach" enthalten. Erstellen Sie eine Instanz
+der Klasse "Student" und geben Sie alle Eigenschaften aus.
+
+Hinweis:
+
+Erstellen Sie eine Klasse namens "Student", die von der Klasse "Person" erbt.
+Fügen Sie der Klasse "Student" eine zusätzliche Eigenschaft "Studienfach" hinzu.
+Verwenden Sie den Konstruktor der Klasse "Student", um eine Instanz zu erstellen und setzen Sie sowohl die allgemeinen
+Eigenschaften einer Person als auch das Studienfach.
+Rufen Sie die Eigenschaften der Instanz über die entsprechenden Methoden auf und geben Sie sie aus.
+
+3. Polymorphismus:
+Erstellen Sie eine abstrakte Klasse namens "Shape" mit einer abstrakten Methode "calculateArea()". Implementieren Sie
+dann zwei konkrete Klassen "Circle" und "Rectangle", die von der Klasse "Shape" erben und die Methode "calculateArea()"
+überschreiben, um die Fläche eines Kreises bzw. Rechtecks zu berechnen. Erstellen Sie Instanzen der Klasse "Circle" und
+"Rectangle" und rufen Sie die Methode "calculateArea()" für jede Instanz auf.
+
+Hinweis:
+
+Erstellen Sie eine abstrakte Klasse "Shape" mit der abstrakten Methode "calculateArea()".
+Erstellen Sie konkrete Klassen "Circle" und "Rectangle", die von "Shape" erben und die Methode "calculateArea()"
+überschreiben.
+Implementieren Sie in den überschreibenden Methoden die Berechnung der Fläche des Kreises bzw. des Rechtecks.
+Erstellen Sie Instanzen der Klasse "Circle" und "Rectangle" und rufen Sie die Methode "calculateArea()" für jede Instanz
+auf.
+
+Erstellen Sie eine Klasse namens "BankAccount", die ein Bankkonto repräsentiert. Das Bankkonto sollte eine private
+Eigenschaft "balance" haben, die den Kontostand speichert. Implementieren Sie Methoden, um den Kontostand abzurufen
+und Einzahlungen oder Abhebungen vorzunehmen.
