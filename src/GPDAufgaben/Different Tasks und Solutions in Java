@@ -40,3 +40,27 @@ auf.
 Erstellen Sie eine Klasse namens "BankAccount", die ein Bankkonto repräsentiert. Das Bankkonto sollte eine private
 Eigenschaft "balance" haben, die den Kontostand speichert. Implementieren Sie Methoden, um den Kontostand abzurufen
 und Einzahlungen oder Abhebungen vorzunehmen.
+
+                                        Task 4: Online Shop
+
+Entwerfen und implementieren Sie ein Klassensystem für einen Online-Shop. Der Shop bietet verschiedene Produkte an,
+die in Kategorien organisiert sind. Kunden können Produkte in ihren Warenkorb legen und Bestellungen aufgeben.
+
+                                    Hier sind die Anforderungen:
+
+Erstellen Sie eine Klasse "Product" mit den Eigenschaften "name", "price" und "category". Implementieren Sie Getter- und
+ Setter-Methoden für diese Eigenschaften.
+
+Erstellen Sie eine Klasse "Category" mit der Eigenschaft "name". Implementieren Sie Getter- und Setter-Methoden für
+diese Eigenschaft.
+
+Erstellen Sie eine Klasse "Cart", die die Produkte enthält, die ein Kunde in den Warenkorb gelegt hat. Implementieren
+Sie Methoden zum Hinzufügen und Entfernen von Produkten, zum Berechnen des Gesamtpreises der Produkte im Warenkorb und
+zum Anzeigen des Inhalts des Warenkorbs.
+
+Erstellen Sie eine Klasse "Customer" mit den Eigenschaften "name" und "email". Implementieren Sie Getter- und
+Setter-Methoden für diese Eigenschaften.
+
+Erstellen Sie eine Klasse "Order", die eine Bestellung repräsentiert und Informationen über den Kunden, den Warenkorb
+und den Bestellzeitpunkt enthält. Implementieren Sie eine Methode zum Aufgeben der Bestellung und zum Anzeigen der
+Details der Bestellung.
