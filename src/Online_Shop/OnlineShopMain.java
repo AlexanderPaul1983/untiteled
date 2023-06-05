@@ -7,8 +7,13 @@ public class OnlineShopMain {
         cart.addToCart("Banana");
         cart.addToCart("Schokalade");
         cart.addToCart("Milk");
-        cart.removeFromCart(1);
+        
         cart.allOrders();
+        Product papier = new Product("Klopapier",2.45f,"Toalett");
+        Product banana = new Product("Banana",2.68f,"Fruits");
+        Product schocolate = new Product("Schocolate",3.55f,"Candies");
+        Product milk = new Product("Milk",1.20f,"Milk producs");
+        cart.getPrice();
 
     }
 }
