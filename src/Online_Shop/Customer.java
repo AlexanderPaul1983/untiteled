@@ -6,11 +6,19 @@ public class Customer {
 
     //          Getter and Setter
 
-    public String getname(){
+    public String getName() {
         return name;
+    }
+
+    public void setName() {
+        this.name = name;
     }
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getEmail() {
+        return email;
     }
 }
