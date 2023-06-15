@@ -26,7 +26,6 @@ public class Product {
         this.name = name;
         this.price = price;
         this.category = category;
-        totalPrice +=price;
     }
 
     public void setPrice(float price) {

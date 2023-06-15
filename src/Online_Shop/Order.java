@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Order extends Cart {
 private Customer client;
-private Cart order;
+private String order;
 List<String> Order = new ArrayList<>();
 
 
@@ -17,19 +17,18 @@ List<String> Order = new ArrayList<>();
         this.client = client;
     }
 
-    public Cart getOrder() {
-        return order;
-    }
 
-    public void setOrder(Cart order) {
+
+    public void setOrder(String order) {
         this.order = order;
     }
 
 
     public void setNewOrder(String order){
         Order.add(order);
+
         System.out.println("Your order was added to the Cart");
-        addToCart(order);
+
     }
     public void getallOrders(){
         allOrders();
