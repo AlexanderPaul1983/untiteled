@@ -1,4 +1,4 @@
-package Softwareingeneuering;
+package Softwareengineering;
 
 public class KreisAdapter implements KreisberechnungInterface {
     private final Kreisberechnungen kreisberechnungen;

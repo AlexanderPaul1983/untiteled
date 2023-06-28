@@ -1,0 +1,4 @@
+In the Softwareengineering package was implemented some new classes and interfaces to demonstrate a Adapter-pattern.
+The task is: Assuming you are developing an application for displaying weather information. You have an external weather
+API that provides data in JSON format. However, your application uses an internal weather data class that expects
+a different data format.

@@ -1,6 +1,6 @@
 
 
-package Softwareingeneuering;
+package Softwareengineering;
 
 public interface KreisberechnungInterface {
     double flaecheninhalt(Kreis k);
