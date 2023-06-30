@@ -3,14 +3,11 @@ package LearnOPP;
 import java.util.ArrayList;
 
 public class Main {
+
     public static void main(String[] args) {
-        ArrayList<Object> list = new ArrayList<>();
-
-        for (int i = 0; i < 11; i++) {
-            list.add(i,i);
-
-
-        }
-        System.out.println(list.get(4));
+        Kontos konto2 = new Kontos();
+        konto2.createKonto("Kontonummer: 34");
+        BankofEngland bank1 = new BankofEngland("Firstbank",54,konto2);
+        System.out.println(bank1.getKonto());
     }
 }
