@@ -64,3 +64,60 @@ Setter-Methoden für diese Eigenschaften.
 Erstellen Sie eine Klasse "Order", die eine Bestellung repräsentiert und Informationen über den Kunden, den Warenkorb
 und den Bestellzeitpunkt enthält. Implementieren Sie eine Methode zum Aufgeben der Bestellung und zum Anzeigen der
 Details der Bestellung.
+
+                                        Aufgabe 4:
+
+Erstelle eine Klasse "BankAccount" (Bankkonto), um ein Bankkonto zu modellieren. Das Bankkonto sollte ein Attribut
+"balance" (Kontostand) haben, das den aktuellen Kontostand des Kontos speichert.
+
+Die Klasse "BankAccount" sollte folgende Methoden haben:
+
+getBalance(): Diese Methode gibt den aktuellen Kontostand zurück.
+setBalance(): Diese Methode akzeptiert einen Parameter balance und setzt den Kontostand auf den angegebenen Wert.
+Zusätzlich gibt sie eine Nachricht aus, dass der Kontostand aktualisiert wurde.
+deposit(): Diese Methode akzeptiert einen Parameter amount und fügt den angegebenen Betrag zum Kontostand hinzu.
+Zusätzlich gibt sie eine Nachricht aus, dass der Betrag zum Kontostand hinzugefügt wurde.
+withdraw(): Diese Methode akzeptiert einen Parameter amount und zieht den angegebenen Betrag vom Kontostand ab.
+Wenn der Kontostand ausreicht, wird der Betrag abgezogen und eine Nachricht ausgegeben, dass der Betrag vom Kontostand
+abgezogen wurde. Andernfalls wird eine Fehlermeldung ausgegeben, dass nicht genügend Guthaben auf dem Konto vorhanden ist.
+Implementiere die Klasse "BankAccount" gemäß den obigen Anforderungen. Du kannst den Kontostand und die Transaktionen
+in der Konsole überprüfen, indem du verschiedene Methodenaufrufe durchführst.
+
+                                     Aufgabe 5:
+
+Erstelle eine Klasse "Student" mit den folgenden Attributen:
+
+name (String): Der Name des Studenten.
+id (int): Die eindeutige Identifikationsnummer des Studenten.
+courses (ArrayList<String>): Eine Liste der Kurse, die der Student belegt.
+Die Klasse "Student" sollte folgende Methoden haben:
+
+addCourse(String course): Diese Methode akzeptiert den Namen eines Kurses und fügt ihn der Liste der belegten Kurse hinzu.
+removeCourse(String course): Diese Methode akzeptiert den Namen eines Kurses und entfernt ihn aus der Liste der belegten Kurse.
+getCourses(): Diese Methode gibt die Liste der belegten Kurse zurück.
+displayInfo(): Diese Methode gibt den Namen, die ID und die Liste der belegten Kurse des Studenten aus.
+Implementiere die Klasse "Student" gemäß den obigen Anforderungen. Du kannst dann eine Instanz der Klasse "Student"
+erstellen, Kurse hinzufügen und entfernen, die Liste der belegten Kurse abrufen und die Informationen des Studenten anzeigen.
+
+                                                Aufgabe 6:
+Erstelle eine abstrakte Klasse "Animal" (Tier), um ein Tier zu modellieren. Das Tier sollte ein Attribut "name" haben,
+das den Namen des Tiers speichert.
+
+Die abstrakte Klasse "Animal" sollte folgende Methoden haben:
+
+getName(): Diese Methode gibt den Namen des Tiers zurück.
+setName(): Diese Methode akzeptiert einen Parameter name und setzt den Namen des Tiers auf den angegebenen Wert.
+makeSound(): Diese Methode ist abstrakt und sollte in den konkreten Unterklassen implementiert werden. Sie gibt den Laut
+des Tiers aus.
+Erstelle dann zwei konkrete Unterklassen der Klasse "Animal": "Dog" (Hund) und "Cat" (Katze).
+
+Die Klasse "Dog" sollte eine spezifische Implementierung der Methode makeSound() haben, die den Laut eines Hundes ausgibt.
+
+Die Klasse "Cat" sollte ebenfalls eine spezifische Implementierung der Methode makeSound() haben, die den Laut einer
+Katze ausgibt.
+
+Implementiere die abstrakte Klasse "Animal" sowie die konkreten Klassen "Dog" und "Cat" gemäß den obigen Anforderungen.
+
+
+
+
