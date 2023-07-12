@@ -118,6 +118,26 @@ Katze ausgibt.
 
 Implementiere die abstrakte Klasse "Animal" sowie die konkreten Klassen "Dog" und "Cat" gemäß den obigen Anforderungen.
 
+                                    Aufgabe: 7
+Erstelle eine Klasse "Bank" (Bank), um eine Bank zu modellieren. Die Bank sollte die folgenden Attribute haben:
 
+name (String): Der Name der Bank.
+accounts (List<BankAccount>): Eine Liste von Bankkonten, die von der Bank verwaltet werden.
+Die Klasse "Bank" sollte die folgenden Methoden haben:
+
+getName(): Diese Methode gibt den Namen der Bank zurück.
+
+addAccount(BankAccount account): Diese Methode akzeptiert ein Bankkontoobjekt und fügt es der Liste der Bankkonten
+hinzu.
+
+removeAccount(BankAccount account): Diese Methode akzeptiert ein Bankkontoobjekt und entfernt es aus der Liste der
+Bankkonten.
+getTotalBalance(): Diese Methode berechnet und gibt die Gesamtsumme aller Kontostände in der Bank zurück.
+
+displayAccountInfo(): Diese Methode gibt die Informationen aller Bankkonten in der Bank aus.
+
+Implementiere die Klasse "Bank" gemäß den obigen Anforderungen. Du kannst dann eine Instanz der Klasse "Bank" erstellen,
+Bankkonten hinzufügen und entfernen, die Gesamtsumme aller Kontostände berechnen und die Informationen der Bankkonten
+anzeigen.
 
 
