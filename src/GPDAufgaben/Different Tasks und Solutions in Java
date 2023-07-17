@@ -119,25 +119,20 @@ Katze ausgibt.
 Implementiere die abstrakte Klasse "Animal" sowie die konkreten Klassen "Dog" und "Cat" gemäß den obigen Anforderungen.
 
                                     Aufgabe: 7
-Erstelle eine Klasse "Bank" (Bank), um eine Bank zu modellieren. Die Bank sollte die folgenden Attribute haben:
 
-name (String): Der Name der Bank.
-accounts (List<BankAccount>): Eine Liste von Bankkonten, die von der Bank verwaltet werden.
-Die Klasse "Bank" sollte die folgenden Methoden haben:
+Erstelle eine Klasse "Book" (Buch), um ein Buch zu modellieren. Das Buch sollte die folgenden Attribute haben:
 
-getName(): Diese Methode gibt den Namen der Bank zurück.
+title (String): Der Titel des Buches.
+author (String): Der Autor des Buches.
+pageCount (int): Die Anzahl der Seiten im Buch.
+price (double): Der Preis des Buches.
+Die Klasse "Book" sollte die folgenden Methoden haben:
 
-addAccount(BankAccount account): Diese Methode akzeptiert ein Bankkontoobjekt und fügt es der Liste der Bankkonten
-hinzu.
-
-removeAccount(BankAccount account): Diese Methode akzeptiert ein Bankkontoobjekt und entfernt es aus der Liste der
-Bankkonten.
-getTotalBalance(): Diese Methode berechnet und gibt die Gesamtsumme aller Kontostände in der Bank zurück.
-
-displayAccountInfo(): Diese Methode gibt die Informationen aller Bankkonten in der Bank aus.
-
-Implementiere die Klasse "Bank" gemäß den obigen Anforderungen. Du kannst dann eine Instanz der Klasse "Bank" erstellen,
-Bankkonten hinzufügen und entfernen, die Gesamtsumme aller Kontostände berechnen und die Informationen der Bankkonten
-anzeigen.
-
+getTitle(): Diese Methode gibt den Titel des Buches zurück.
+getAuthor(): Diese Methode gibt den Autor des Buches zurück.
+getPageCount(): Diese Methode gibt die Anzahl der Seiten im Buch zurück.
+getPrice(): Diese Methode gibt den Preis des Buches zurück.
+displayInfo(): Diese Methode gibt die Informationen des Buches aus, einschließlich Titel, Autor, Seitenanzahl und Preis.
+Implementiere die Klasse "Book" gemäß den obigen Anforderungen. Du kannst dann eine Instanz der Klasse "Book" erstellen
+und die Informationen des Buches anzeigen.
 
