@@ -136,3 +136,30 @@ displayInfo(): Diese Methode gibt die Informationen des Buches aus, einschließl
 Implementiere die Klasse "Book" gemäß den obigen Anforderungen. Du kannst dann eine Instanz der Klasse "Book" erstellen
 und die Informationen des Buches anzeigen.
 
+Aufgabe 8: Generische Klasse
+Erstelle eine generische Klasse "Pair" (Paar), die zwei Werte unterschiedlichen Typs speichern kann. Die Klasse sollte
+die folgenden Attribute haben:
+
+first (Typparameter): Der erste Wert des Paares.
+second (Typparameter): Der zweite Wert des Paares.
+Implementiere die entsprechenden Getter- und Setter-Methoden für beide Attribute.
+
+Erstelle dann eine Instanz der Klasse "Pair" mit den Typen String und Integer. Setze Werte für das Paar und gib sie auf
+der Konsole aus.
+
+                            Aufgabe 8: Dateiverwaltung
+
+Erstelle eine Klasse "FileManager", die Methoden zur Verwaltung von Dateien bereitstellt. Die Klasse sollte die folgenden
+Methoden haben:
+
+createFile(String fileName): Diese Methode erstellt eine neue Datei mit dem angegebenen Dateinamen.
+deleteFile(String fileName): Diese Methode löscht die angegebene Datei.
+readFile(String fileName): Diese Methode liest den Inhalt der angegebenen Datei und gibt ihn als String zurück.
+writeFile(String fileName, String content): Diese Methode schreibt den angegebenen Inhalt in die angegebene Datei.
+appendFile(String fileName, String content): Diese Methode fügt den angegebenen Inhalt am Ende der angegebenen Datei
+hinzu.
+Implementiere die Klasse "FileManager" gemäß den obigen Anforderungen. Verwende die Methoden,
+um eine Datei zu erstellen,
+den Inhalt zu schreiben, den Inhalt zu lesen und die Datei zu löschen.
+Überprüfe die Funktionalität deiner Implementierung.
+

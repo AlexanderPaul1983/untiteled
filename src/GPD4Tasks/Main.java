@@ -1,15 +1,22 @@
 package GPD4Tasks;
 
-import GPDAufgaben.BankAccount;
+
 
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-       Calculator calc = new Calculator();
-       calc.divideCalculator(5,2);
-       calc.divideCalculator(5,0);
+        Pair <Integer> first = new Pair<>();
+        Pair<String> second = new Pair<>();
+
+        first.setFirst(45);
+        second.setSecond("Hello");
+        System.out.println(first.getFirst());
+        System.out.println(second.getSecond());
+    }
+
+
 
     }
 
-}
+

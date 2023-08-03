@@ -5,10 +5,12 @@ public class Calculator {
         try {
             double sum = a/b;
             System.out.println(sum);
-        } catch (ArithmeticException exception) {
+        }
+        catch (Exception e) {
             System.out.println("die zweite Zahl darf nie 0 sein");
 
         }
+
     }
 }
 
