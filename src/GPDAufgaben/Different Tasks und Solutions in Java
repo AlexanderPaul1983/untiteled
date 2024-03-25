@@ -49,7 +49,7 @@ die in Kategorien organisiert sind. Kunden können Produkte in ihren Warenkorb l
                                     Hier sind die Anforderungen:
 
 Erstellen Sie eine Klasse "Product" mit den Eigenschaften "name", "price" und "category". Implementieren Sie Getter- und
- Setter-Methoden für diese Eigenschaften.
+Setter-Methoden für diese Eigenschaften.
 
 Erstellen Sie eine Klasse "Category" mit der Eigenschaft "name". Implementieren Sie Getter- und Setter-Methoden für
 diese Eigenschaft.
